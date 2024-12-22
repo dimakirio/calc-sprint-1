@@ -19,6 +19,7 @@ POST /api/v1/calculate
 Заголовки
 Content-Type: application/json
 Тело запроса
+
 Пример:
 
 {
@@ -28,6 +29,7 @@ Content-Type: application/json
 Успешный запрос
 
 Статус-код: 200 OK
+
 Пример ответа:
 
 {
@@ -36,6 +38,7 @@ Content-Type: application/json
 Ошибка обработки выражения
 
 Статус-код: 422 Unprocessable Entity
+
 Пример ответа:
 
 {
@@ -44,6 +47,7 @@ Content-Type: application/json
 Неподдерживаемый метод
 
 Статус-код: 405 Method Not Allowed
+
 Пример ответа:
 
 {
@@ -52,9 +56,23 @@ Content-Type: application/json
 Некорректное тело запроса
 
 Статус-код: 400 Bad Request
+
 Пример ответа:
 
 {
   "error": "Invalid Body"
 }
 
+Примеры использования
+
+Успешный запрос:
+curl --location 'http://localhost:8080/api/v1/calculate' \
+--header 'Content-Type: application/json' \
+--data '{
+  "expression": "2+2*2"
+}'
+Ответ:
+
+{
+  "result": "6"
+}
