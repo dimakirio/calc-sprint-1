@@ -3,6 +3,7 @@
 Для запуска проекта выполните следующие шаги:
 
 Склонируйте репозиторий:
+
 git clone https://github.com/dimakirio/calc-sprint-1.git
 cd calc_go
 Убедитесь, что Go установлен и находится в $PATH (проверить версию можно командой go version).
