@@ -1,3 +1,3 @@
-module github.com/Andreyka-coder9192/calc_go
+module github.com/dimakirio/calc-sprint-1
 
 go 1.23.0
