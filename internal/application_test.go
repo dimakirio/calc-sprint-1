@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dimakirio/calc-sprint-1/internal\application"
+	"github.com/dimakirio/calc-sprint-1/internal"
 )
 
 func sanitizeJSON(s string) string {
