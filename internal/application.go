@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dimakirio/calc-sprint-1/pkg\calculation"
+	"github.com/dimakirio/calc-sprint-1/pkg"
 )
 
 type Config struct {
